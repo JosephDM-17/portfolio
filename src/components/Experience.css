@@ -1,0 +1,146 @@
+.experience-section {
+  padding: 5rem 1.5rem;
+  background-color: rgba(30, 41, 59, 0.3);
+}
+
+.experience-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.experience-header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.experience-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+  .experience-title {
+    font-size: 3rem;
+  }
+}
+
+.experience-subtitle {
+  font-size: 1.25rem;
+  color: #d1d5db;
+  max-width: 48rem;
+  margin: 0 auto;
+}
+
+.experience-content {
+  max-width: 64rem;
+  margin: 0 auto;
+}
+
+.experience-card {
+  background-color: rgba(30, 41, 59, 0.5);
+  backdrop-filter: blur(8px);
+  border-radius: 0.5rem;
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
+.experience-card-header {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 1.5rem;
+}
+
+.experience-icon {
+  background-color: #2563eb;
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  margin-right: 1rem;
+}
+
+.experience-icon svg {
+  color: white;
+}
+
+.experience-details {
+  flex: 1;
+}
+
+.experience-job-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 0.5rem;
+}
+
+.experience-company {
+  font-size: 1.25rem;
+  color: #60a5fa;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+
+.experience-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 640px) {
+  .experience-meta {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+.experience-meta-item {
+  display: flex;
+  align-items: center;
+  color: #d1d5db;
+}
+
+.experience-meta-item svg {
+  margin-right: 0.5rem;
+}
+
+.experience-achievements {
+  margin-bottom: 1.5rem;
+}
+
+.experience-achievement {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 0.75rem;
+}
+
+.experience-bullet {
+  width: 0.5rem;
+  height: 0.5rem;
+  background-color: #60a5fa;
+  border-radius: 50%;
+  margin-top: 0.5rem;
+  margin-right: 0.75rem;
+  flex-shrink: 0;
+}
+
+.experience-achievement-text {
+  color: #d1d5db;
+  line-height: 1.6;
+}
+
+.experience-tech-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1.5rem;
+}
+
+.experience-tech-tag {
+  background-color: rgba(37, 99, 235, 0.2);
+  color: #60a5fa;
+  padding: 0.25rem 0.75rem;
+  border-radius: 9999px;
+  font-size: 0.875rem;
+}
